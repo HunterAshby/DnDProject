@@ -76,7 +76,7 @@ function updateStory(element){
 
     // Image Content
     const illustration = document.createElement('img');
-    illustration.src = `..\\images\\group${capitalized}\\Session ${session}.webp`;
+    illustration.src = `images\\group${capitalized}\\Session ${session}.webp`;
     illustration.alt = 'illustration';
     illustration.width = '500';
     illustration.height = '300';
@@ -85,7 +85,7 @@ function updateStory(element){
     // Text Content
     const frame = document.createElement('iframe');
     frame.classList.add('recap');
-    frame.src = `..\\content\\group${capitalized}Recap\\Session ${session}.txt`;
+    frame.src = `content\\group${capitalized}Recap\\Session ${session}.txt`;
     frame.width = '500';
     frame.height = '500';
     content.appendChild(frame);
